@@ -15,7 +15,7 @@ Jeweler::Tasks.new do |gem|
   gem.name = "select_and_update_all"
   gem.homepage = "http://github.com/neglectedvalue/select_and_update_all"
   gem.license = "MIT"
-  gem.description = gem.summary = "Adds select_and_update_all which do update_all with callbacks."
+  gem.description = gem.summary = "Adds ActiveRecord::Base.select_and_update_all which do update_all with callbacks."
   gem.email = "d.sukhonin@gmail.com"
   gem.authors = ["Denis Sukhonin"]
 end
